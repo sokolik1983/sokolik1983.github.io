@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+   <head>
+       <meta charset='utf-8'>
+       <link rel="stylesheet" href="style.css.html">
+       <title>My Resume</title>
+   </head>
+   <style>
+        #header {
+            text-align: center;
+            margin-bottom: 32px;
+        }
+        #main {
+            margin-left: 600px;
+            margin-right: 600px;
+        }
+        #footer {
+            text-align: center;
+            margin-top: 64px;
+        }
+        h1,h2,h3 {
+            font-weight: 400;
+        }
+        h1 {
+            font-size: 36px;
+            margin-bottom: 0px;
+        }
+        h2 {
+            font-size: 32px;
+            border-bottom: 1px solid grey;
+            margin-bottom: 8px;
+        }
+        h3 {
+            font-size: 20px;
+            margin-bottom: 0px;
+        }
+        p1,p2,p,p3,p4 {
+            margin-bottom: 12px;
+        }
+        p1 {
+            font-size: 20px;
+            font-weight: bold;
+        }
+        p3 {
+            font-weight: bold;
+        }
+    </style>
+    <body>
+        <div id=header>
+            <h1>Алексей Примадонин</h1>
+            <h3>Веб-разработчик</h3>
+            <p>
+            <a href="sokolik1983@mail.ru">sokolik1983@mail.ru</a>
+            <a href="https://vk.com/sokolik1983">https://vk.com/sokolik1983</a>
+            </p>
+        </div>
+        <div id=main>
+            <h2>Опыт работы</h2>
+                <p1>Майкрософт Россия</p1><br>
+                <p2>Программист (стажировка), апрель 2016-ноябрь 2016</p2>
+                <ul>
+                        <li>Работа в команде на C#</li>
+                        <li>Создание вебсайта проекта JDX</li>
+                </ul>
+                <p1>ТОО Винная Баня</p1><br>
+                <p2>Веб-дизайн, январь 2015-апрель 2016</p2>
+                <ul>
+                        <li>Вёрстка макетов</li>
+                        <li>Разработка темдля Wordpress</li>
+                        <li>Поддержание сайта</li>
+                </ul>
+            <h2>Образование</h2>
+                <p1>Университет им. Патриса Лумумбы</p1><br>
+                <p2>Бакалавр информационных систем, 2012-2016</p2><br><br>
+                <p1>Хекслет</p1><br>
+                <p2>Курсы по программированию, JS Backend/Frontend,2015-2017</p2>
+            <h2>Другие навыки и увлечения</h2>
+            <ul>
+                    <li>Основы дизайна и типографики</li>
+                    <li>Любительская игра на барабане</li>
+                    <li>Футбол на асфальте</li>
+            </ul>
+
+        </div>
+        <div id=footer>
+            <p3>Алексей Примадонин</p3><br>
+            <p4>Новый Арбат, 2, Москва, Россия, тел. +7(915) 428-27-13 <a href="sokolik1983@mail.ru">sokolik1983@mail.ru</a></p4>
+
+
+        </div>
+    </body>
+</html>
